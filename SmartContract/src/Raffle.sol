@@ -18,6 +18,7 @@ contract Raffle {
     /*Events*/
     event RaffleEntered(address indexed player);
 
+    //test
     constructor(uint256 entranceFee) {
         i_entranceFee = entranceFee;
     }
